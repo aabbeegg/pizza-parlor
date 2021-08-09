@@ -19,9 +19,9 @@
 <div class="centered">
     <form> 
     <label for="name">NAME:</label> <br> 
-      <input type="text" id="name" name="name" value="" width="50%"> <br> <br> <br> <br>
+      <input type="text" id="name" name="name" value="" size="50%"> <br> <br> <br> <br>
      <label for="phone number">Phone number: </label><br>  
-     <input type="numbers" id="Phone number" name="lname" value="" width="50%"> 
+     <input type="numbers" id="Phone number" name="lname" value="" size="50%"> 
     </form>
     <div class="row">
         <div class="column">
@@ -68,11 +68,17 @@
 </div>
     </div>
 
-    <input type="number" id="number of pizzas" name="number of pizzas" width="30ex">
+    <input type="number" id="number of pizzas" name="number of pizzas" maxlength="1" size="20">
     <label for="number of pizzas">1 upto 3</label> <br> <br> <br> <br> 
 
-
-  <input type="submit" value="Submit">
+    <button type="button" onclick="validateform()">submit</button>
+  </form>
+  <br>
+  <div class="output">
+      <p id="output"></p>
+  </div>
+  <script src="javascript/script.js"></script>
+  
 </form> 
   </div>
 </div><br> <br> <br> <br> 
