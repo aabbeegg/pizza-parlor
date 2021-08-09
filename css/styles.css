@@ -1,0 +1,49 @@
+
+h1{
+  color: aqua;
+  font-size: 0ex;
+  text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .centered {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+  }
+
+  p {
+      text-decoration: blueviolet;
+      font-size: 2ex
+  }
+
+  
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.body{
+  background-color: aqua;
+}
+
+.centered{
+  text-align: center;
+  color: #000;
+  background-color: aqua;
+  font-size: 2ex;
+  font-style: italic;
+}
