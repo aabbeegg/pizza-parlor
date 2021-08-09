@@ -29,10 +29,10 @@ function() {
 
     //*limits the number of pizzas one can order*//    
     if (this.numberofpizzas == 1,2,3) {
-        else if(this.numberofpizzas == 0) {
-            alert(
-                "please put in a valid number")
-        else if(this.numberofpizzas == 3>) {
+     if(this.numberofpizzas == 0) {
+        alert("please put in a valid number")
+    if(
+        this.numberofpizzas == 3> ) {
             alert(
                 "please put in a maximum of 3 orders");
         }        
@@ -46,4 +46,3 @@ function() {
         }
     }
     }
-} 
